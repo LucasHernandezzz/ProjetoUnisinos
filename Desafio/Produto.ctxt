@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=Produto
+comment1.params=nome\ preco
+comment1.target=Produto(java.lang.String,\ double)
+comment2.params=
+comment2.target=java.lang.String\ getNome()
+comment3.params=nome
+comment3.target=void\ setNome(java.lang.String)
+comment4.params=
+comment4.target=double\ getPreco()
+comment5.params=preco
+comment5.target=void\ setPreco(double)
+comment6.params=
+comment6.target=void\ imprimeInformacoes()
+numComments=7

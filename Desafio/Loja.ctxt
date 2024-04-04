@@ -1,0 +1,25 @@
+#BlueJ class context
+comment0.target=Loja
+comment1.params=nome\ quantidadeFuncionarios\ salarioBaseFuncionario
+comment1.target=Loja(java.lang.String,\ int,\ double)
+comment10.params=
+comment10.target=double\ gastosComSalario()
+comment11.params=
+comment11.target=char\ tamanhoDaLoja()
+comment2.params=nome\ quantidadeFuncionarios
+comment2.target=Loja(java.lang.String,\ int)
+comment3.params=
+comment3.target=java.lang.String\ getNome()
+comment4.params=nome
+comment4.target=void\ setNome(java.lang.String)
+comment5.params=
+comment5.target=int\ getQuantidadeFuncionarios()
+comment6.params=quantidadeFuncionarios
+comment6.target=void\ setQuantidadeFuncionarios(int)
+comment7.params=
+comment7.target=double\ getSalarioBaseFuncionario()
+comment8.params=salarioBaseFuncionario
+comment8.target=void\ setSalarioBaseFuncionario(double)
+comment9.params=
+comment9.target=java.lang.String\ toString()
+numComments=12
