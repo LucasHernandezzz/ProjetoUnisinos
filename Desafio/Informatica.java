@@ -16,7 +16,7 @@ public class Informatica extends Loja {
         this.seguroEletronicos = seguroEletronicos;
     }
 
-    // Sobrescrita do método toString para incluir a taxa de comercialização
+    // Sobrescrita do método toString para incluir o seguro
     public String toString(){
         return "Nome é: " + getNome() + "a quantidade de funcionários é: " + getQuantidadeFuncionarios() + "e o salario base é: " + getSalarioBaseFuncionario() +
         "o endereço é " + getEndereco() + "e a data de fundação é" + getDataFundacao() + "o seguro é " + getSeguroEletronicos();
