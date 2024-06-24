@@ -1,4 +1,3 @@
-// Importar as classes Endereco e Data, se necessário
 public class Cosmetico extends Loja {
     private double taxaComercializacao;
 
@@ -8,7 +7,6 @@ public class Cosmetico extends Loja {
         this.taxaComercializacao = taxaComercializacao;
     }
 
-    // Getters e Setters para taxaComercializacao
     public double getTaxaComercializacao() {
         return taxaComercializacao;
     }
