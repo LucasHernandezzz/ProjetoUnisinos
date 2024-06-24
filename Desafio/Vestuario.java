@@ -7,7 +7,7 @@ public class Vestuario extends Loja {
         this.produtosImportados = produtosImportados;
     }
 
-    // Getters e Setters para taxaComercializacao
+    // Getters e Setters 
     public boolean getProdutosImportados() {
         return produtosImportados;
     }
@@ -16,7 +16,7 @@ public class Vestuario extends Loja {
         this.produtosImportados = produtosImportados;
     }
 
-    // Sobrescrita do método toString para incluir a taxa de comercialização
+    // Sobrescrita do método toString para incluir produtos importados
     public String toString(){
         return "Nome é: " + getNome() + "a quantidade de funcionários é: " + getQuantidadeFuncionarios() + "e o salario base é: " + getSalarioBaseFuncionario() +
         "o endereço é " + getEndereco() + "e a data de fundação é" + getDataFundacao() + "o produto é " + getProdutosImportados();
