@@ -44,20 +44,17 @@ public class Produto{
     }
     
   public boolean estaVencido(Data dataRecebida){
-        //dataValidade       dataRecebida
-        //dia/mes/ano          diaR/marR/anoR
-        //12/05/2023               
-        if(dataRecebida.getAno() > dataValidade.getAno()) //20/06/2022 
+                     
+        if(dataRecebida.getAno() > dataValidade.getAno()) 
            return true;
         else if(dataRecebida.getAno() == dataValidade.getAno()) 
-             if(dataRecebida.getMes() > dataValidade.getMes()) //20/04/2023
+             if(dataRecebida.getMes() > dataValidade.getMes()) 
              return true;    
              else if(dataRecebida.getMes() == dataValidade.getMes()) 
-                  if(dataRecebida.getDia() >= dataValidade.getDia())  //10/05/2023
+                  if(dataRecebida.getDia() >= dataValidade.getDia())  
                      return true;    
     
         return false;
-    //20/06/2024   //12/06/2023 //20/05/2023 
     }
     
 }
