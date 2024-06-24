@@ -1,4 +1,3 @@
-// Importar as classes Endereco e Data, se necessário
 public class Bijuteria extends Loja {
     private double metaVendas;
 
@@ -8,7 +7,7 @@ public class Bijuteria extends Loja {
         this.metaVendas = metaVendas;
     }
 
-    // Getters e Setters para taxaComercializacao
+
     public double getMetaVendas() {
         return metaVendas;
     }
@@ -17,7 +16,7 @@ public class Bijuteria extends Loja {
         this.metaVendas = metaVendas;
     }
 
-    // Sobrescrita do método toString para incluir a taxa de comercialização
+    // Sobrescrita do método toString para incluir a meta de vendas
     public String toString(){
         return "Nome é: " + getNome() + "a quantidade de funcionários é: " + getQuantidadeFuncionarios() + "e o salario base é: " + getSalarioBaseFuncionario() +
         "o endereço é " + getEndereco() + "e a data de fundação é" + getDataFundacao() + "a meta é " + getMetaVendas();
