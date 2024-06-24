@@ -19,6 +19,6 @@ public class Vestuario extends Loja {
     // Sobrescrita do método toString para incluir a taxa de comercialização
     public String toString(){
         return "Nome é: " + getNome() + "a quantidade de funcionários é: " + getQuantidadeFuncionarios() + "e o salario base é: " + getSalarioBaseFuncionario() +
-        "o endereço é " + getEndereco() + "e a data de fundação é" + getDataFundacao() + "o seguro é " + getProdutosImportados();
+        "o endereço é " + getEndereco() + "e a data de fundação é" + getDataFundacao() + "o produto é " + getProdutosImportados();
     }
 }
